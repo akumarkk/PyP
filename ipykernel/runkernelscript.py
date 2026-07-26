@@ -25,5 +25,9 @@ def run_code_on_kernel(connection_file_path, code_string):
     client.stop_channels()
 
 connection_file = r"C:\Users\your-user-name\AppData\Roaming\jupyter\runtime\kernel-4117a7c1-150a-4bb3-8ce8-52671b4e96fe.json"
-code_to_run = 'print("Hello from ZMQ direct connection!")'
+code_to_run = """
+print("Hello from ZMQ direct connection!")
+a = 10 + 800
+print(f"10 + 800 = {a}")
+"""
 run_code_on_kernel(connection_file, code_to_run)
