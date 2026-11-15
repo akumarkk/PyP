@@ -34,3 +34,10 @@ True
 
 
 ```
+
+##### Numbers
+
+- integers
+- boolean
+- real :floating, decimal
+- complex numbers
